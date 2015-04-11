@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Intent action-key. This key should be synced with publishapps intent action-key. -->
+    <string name="skanetrafiken_mvd_app_intent_action_key">skanetrafiken_mvd_app_intent_action_key</string>
+
+</resources>

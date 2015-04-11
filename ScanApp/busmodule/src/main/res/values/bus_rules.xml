@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Metadata -->
+    <!-- Keys in the json-object. -->
+    <string name="busrules_user_current_time">time</string>
+    <string name="busrules_user_vehicle_id">vehicleId</string>
+    <string name="busrules_user_line">line</string>
+    <string name="busrules_user_latitude">lat</string>
+    <string name="busrules_user_longitude">lon</string>
+    <!-- Values -->
+    <string name="settings_line">2a</string>
+    <integer name="settings_vehicle_id">1</integer>
+    <string name="settings_trip_start">start</string>
+    <string name="settings_trip_end">end</string>
+
+</resources>

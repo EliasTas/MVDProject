@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ScanApp.iml" filepath="$PROJECT_DIR$/ScanApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastdata/broadcastdata.iml" filepath="$PROJECT_DIR$/broadcastdata/broadcastdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/busmodule/busmodule.iml" filepath="$PROJECT_DIR$/busmodule/busmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../coremvdmodule/coremvdmodule.iml" filepath="$PROJECT_DIR$/../coremvdmodule/coremvdmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databasemodule/databasemodule.iml" filepath="$PROJECT_DIR$/databasemodule/databasemodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scanmodule/scanmodule.iml" filepath="$PROJECT_DIR$/scanmodule/scanmodule.iml" />
+    </modules>
+  </component>
+</project>
+

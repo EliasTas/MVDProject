@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <Button
+        android:id="@+id/clientactivity_button_advertising_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start advertisement. On the bus."/>
+
+    <Button
+        android:id="@+id/clientactivity_button_advertising_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start advertisement. Off the bus."/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team: " />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/team_names"
+            android:id="@+id/clientactivity_spinner"
+            android:spinnerMode="dialog"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/clientactivity_button_stop_advertising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop advertisement"/>
+
+    <ImageView
+        android:id="@+id/clientactivity_bluetooth_image"
+        android:layout_marginTop="10dp"
+        android:src="@android:drawable/stat_sys_data_bluetooth"
+        android:background="#0A3C91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

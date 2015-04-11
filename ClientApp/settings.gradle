@@ -1,0 +1,3 @@
+include ':app', ':advertisermodule', ':gpslocationmodule', 'coremvdmodule'
+project(':gpslocationmodule').projectDir = new File(settingsDir, '../gpslocationmodule')
+project(':coremvdmodule').projectDir = new File(settingsDir, '../coremvdmodule')

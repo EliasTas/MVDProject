@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Intent action-key. The keys should be synced with scanapp intent action-key. -->
+    <string name="mvd_app_intent_action_key">mvd_app_intent_action_key</string>
+    <string name="mvd_app_intent_action_extra_key">mvd_app_intent_action_extra_key</string>
+
+</resources>

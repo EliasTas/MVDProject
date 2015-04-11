@@ -1,0 +1,2 @@
+include ':app', ':coremvdmodule', ':datareceiver', ':preparemessagemodule', ':publishmqttmodule'
+project(':coremvdmodule').projectDir = new File(settingsDir, '../coremvdmodule')
